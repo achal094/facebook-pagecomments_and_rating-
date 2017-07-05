@@ -84,7 +84,7 @@
       short d=4;
       String   cid="", date="",name=" ", message="";
       String filename ="workbook.xlsx";
-      FileInputStream fs =new FileInputStream("C:/Users/Achal/Desktop/facebook/page post/comments.xls");
+      FileInputStream fs =new FileInputStream("web_application/comments.xls");
       HSSFWorkbook wb = new HSSFWorkbook(fs);
       HSSFSheet sheet = wb.getSheetAt(0);
       int rows  = sheet.getPhysicalNumberOfRows();

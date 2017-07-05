@@ -84,7 +84,7 @@
       short d=4;
       String   Postid="", date="",name=" ", message="";
       String filename ="workbook.xlsx";
-      FileInputStream fs =new FileInputStream("C:/Users/Achal/Desktop/facebook/page post/workbook.xls");
+      FileInputStream fs =new FileInputStream("workbook.xls");
       HSSFWorkbook wb = new HSSFWorkbook(fs);
       HSSFSheet sheet = wb.getSheetAt(0);
       int rows  = sheet.getPhysicalNumberOfRows();

@@ -88,7 +88,7 @@
    	int sum=0,count=0;
    			double avg=0;
       String filename ="workbook.xlsx";
-      FileInputStream fs =new FileInputStream("C:/Users/Achal/Desktop/facebook/page post/Rating.xls");
+      FileInputStream fs =new FileInputStream("Rating.xls");
       HSSFWorkbook wb = new HSSFWorkbook(fs);
       HSSFSheet sheet = wb.getSheetAt(0);
       int rows  = sheet.getPhysicalNumberOfRows();
